@@ -17,7 +17,7 @@ variable "location" {
 }
 
 variable "storage_account_name" {
-  description = "The name of the azure storage account"
+  description = "The name of the storage account to be created"
   type        = string
   default     = ""
 }
@@ -71,13 +71,13 @@ variable "access_tier" {
 # }
 
 variable "virtual_network_subnet_ids" {
-  description = "List of subnets to permit access to the Storage Account"
+  description = "List of subnets to permit access to the storage account"
   type        = list(string)
   default     = []
 }
 
-variable "ip_rules" {
-  description = "List of IP rules for accessing the Storage Account"
+variable "virtual_network_ip_rules" {
+  description = "List of IP rules to permit access to the storage account"
   type        = list(string)
   default     = []
 }

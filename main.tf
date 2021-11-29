@@ -44,7 +44,7 @@ resource "azurerm_storage_account" "this" {
   network_rules {
     default_action             = "Deny"
     virtual_network_subnet_ids = var.virtual_network_subnet_ids
-    ip_rules                   = [for r in var.ip_rules : replace(r, "/32", "")]
+    ip_rules                   = [for r in var.virtual_network_ip_rules : replace(r, "/32", "")]
     bypass                     = ["Logging", "Metrics", "AzureServices"]
   }
 
