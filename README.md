@@ -30,7 +30,7 @@ module "storage-account" {
     "Container3",
   ]
 
-	# For network rules, the default action is set to "Deny", 
+  # For network rules, the default action is set to "Deny", 
   #therefore to access the storage account one of either 
   #`virtual_network_ip_rules` or `virtual_network_subnet_ids` must be specified.
   virtual_network_subnet_ids = [azurerm_subnet.this.id]
