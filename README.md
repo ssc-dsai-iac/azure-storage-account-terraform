@@ -2,7 +2,8 @@
 
 Terraform Module to create an Azure storage account with a set of containers.
 
-To defines the kind of account, set the argument to `account_kind = "StorageV2"`. Account kind defaults to `StorageV2`. If you want to change this value to other storage accounts kind, then this module automatically computes the appropriate values for `account_tier`, `account_replication_type`. The valid options are `BlobStorage`, `BlockBlobStorage`, `FileStorage`, `Storage` and `StorageV2`. `static_website` can only be set when the account_kind is set to `StorageV2`.
+To defines the kind of account, set the argument to `account_kind = "StorageV2"`. 
+Account kind defaults to `StorageV2`. If you want to change this value to other storage accounts kind, then this module automatically computes the appropriate values for `account_tier`, `account_replication_type`. The valid options are `BlobStorage`, `BlockBlobStorage`, `FileStorage`, `Storage` and `StorageV2`. `static_website` can only be set when the account_kind is set to `StorageV2`.
 
 ## Module Usage
 
@@ -29,9 +30,11 @@ module "storage-account" {
     "Container3",
   ]
 
-	# For network rules, the default action is set to "Deny", therefore to access the storage account one of either `virtual_network_ip_rules` or `virtual_network_subnet_ids` must be specified.
-	virtual_network_subnet_ids = [azurerm_subnet.this.id]
-	virtual_network_ip_rules = ["127.0.0.1"]
+	# For network rules, the default action is set to "Deny", 
+  #therefore to access the storage account one of either 
+  #`virtual_network_ip_rules` or `virtual_network_subnet_ids` must be specified.
+  virtual_network_subnet_ids = [azurerm_subnet.this.id]
+  virtual_network_ip_rules = ["127.0.0.1"]
 
   tags = {
     env        = var.env
