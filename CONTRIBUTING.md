@@ -17,8 +17,8 @@ Pull requests are the best way to propose changes to the codebase, here are the 
 5. Make sure your code lints.
 6. Issue that pull request!
 
-## Any contributions you make will be under the GNU GENERAL PUBLIC LICENSE
-In short, when you submit code changes, your submissions are understood to be under the same [GPL License](https://choosealicense.com/licenses/gpl-3.0/) that covers the project. Feel free to contact the maintainers if that's a concern.
+## Any contributions you make will be under the MIT License
+In short, when you submit code changes, your submissions are understood to be under the same [MIT License](https://choosealicense.com/licenses/mit/) that covers the project. Feel free to contact the maintainers if that's a concern.
 
 ## Report bugs using Github's [issues](https://github.com/SSC-DSAI-Terraform/azure-storage-account-terraform/issues)
 We use GitHub issues to track public bugs. Report a bug by [opening a new issue](https://github.com/SSC-DSAI-Terraform/azure-storage-account-terraform/issues);
@@ -61,8 +61,8 @@ Les demandes d'extraction sont le meilleur moyen de proposer des modifications �
 5. Assurez-vous que votre code soit standard.
 6. Émettez cette pull request !
 
-## Toutes les contributions que vous faites seront sous la LICENCE PUBLIQUE GÉNÉRALE GNU
-En bref, lorsque vous soumettez des modifications de code, vos soumissions sont censées être sous la même [Licence GPL](https://choosealicense.com/licenses/gpl-3.0/) qui couvre le projet. N'hésitez pas à contacter les responsables si cela vous préoccupe.
+## Toutes les contributions que vous faites seront sous la licence MIT
+En bref, lorsque vous soumettez des modifications de code, vos soumissions sont censées être sous la même [licence MIT](https://choosealicense.com/licenses/mit) qui couvre le projet. N'hésitez pas à contacter les responsables si cela vous préoccupe.
 
 ## Signaler les bogues à l'aide des [problèmes](https://github.com/SSC-DSAI-Terraform/azure-storage-account-terraform/issues) de Github
 Nous utilisons les problèmes GitHub pour suivre les bogues publics. Signalez un bogue en [ouvrant un nouveau problème](https://github.com/SSC-DSAI-Terraform/azure-storage-account-terraform/issues)
