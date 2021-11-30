@@ -64,7 +64,7 @@ Les demandes d'extraction sont le meilleur moyen de proposer des modifications �
 ## Toutes les contributions que vous faites seront sous la LICENCE PUBLIQUE GÉNÉRALE GNU
 En bref, lorsque vous soumettez des modifications de code, vos soumissions sont censées être sous la même [Licence GPL](https://choosealicense.com/licenses/gpl-3.0/) qui couvre le projet. N'hésitez pas à contacter les responsables si cela vous préoccupe.
 
-## Signaler les bogues à l'aide des [problèmes] de Github (https://github.com/SSC-DSAI-Terraform/azure-storage-account-terraform/issues)
+## Signaler les bogues à l'aide des [problèmes](https://github.com/SSC-DSAI-Terraform/azure-storage-account-terraform/issues) de Github
 Nous utilisons les problèmes GitHub pour suivre les bogues publics. Signalez un bogue en [ouvrant un nouveau problème](https://github.com/SSC-DSAI-Terraform/azure-storage-account-terraform/issues)
 
 ## Problème de sécurité
