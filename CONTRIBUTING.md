@@ -45,7 +45,7 @@ Do not post any security issues on the public repository! See [SECURITY.md](http
 # Contribuant
 Nous adorons votre contribution ! Nous voulons rendre la contribution à ce projet aussi simple et transparente que possible, que ce soit :
 
-- Signaler un bug
+- Signaler un bogue
 - Discuter de l'état actuel du code
 - Soumettre un correctif
 - Proposer de nouvelles fonctionnalités
