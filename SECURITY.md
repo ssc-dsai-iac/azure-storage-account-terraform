@@ -4,6 +4,6 @@
 
 ______________________
 
-## Sécurité
+# Sécurité
 
 **Ne publiez aucun problème de sécurité sur le dépôt publique!** Les vulnérabilités de sécurité doivent être signalées par courriel à `ssc.dsai-sdia.spc@ssc-spc.gc.ca`
