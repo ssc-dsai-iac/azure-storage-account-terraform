@@ -19,8 +19,8 @@ module "storage-account" {
   # By default, this module will not create a resource group
   # provide a name to use an existing resource group, specify the existing resource group name,
   # and set the argument to `create_resource_group = false`. Location will be same as existing RG.
-  resource_group_name	= "${var.prefix}-${var.group}-${var.user_defined}-${var.env}-rg"
-  location             = var.location
+  resource_group_name	  = "${var.prefix}-${var.group}-${var.user_defined}-${var.env}-rg"
+  location              = var.location
   storage_account_name	= "${var.prefix}csa${var.group}${var.user_defined}dls1"
 
   # Container lists to create
