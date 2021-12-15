@@ -14,7 +14,7 @@ provider "azurerm" {
 }
 
 module "storage-account" {
-  source  = "github.com/SSC-DSAI-Terraform/azure-storage-account-terraform"
+  source  = "github.com/ssc-dsai-iac/azure-storage-account-terraform"
 
   # By default, this module will not create a resource group
   # provide a name to use an existing resource group, specify the existing resource group name,
