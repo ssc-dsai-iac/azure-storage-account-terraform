@@ -83,19 +83,25 @@ variable "virtual_network_ip_rules" {
 }
 
 variable "containers_list" {
-  description   = "List of containers to create"
-  type          = list(string)
-  default       = []
+  description = "List of containers to create"
+  type        = list(string)
+  default     = []
 }
 
 variable "identity_ids" {
-  description   = "Specifies a list of user managed identity ids to be assigned. This is required when `type` is set to `UserAssigned` or `SystemAssigned, UserAssigned`"
-  type          = list(string)
-  default       = null
+  description = "Specifies a list of user managed identity ids to be assigned. This is required when `type` is set to `UserAssigned` or `SystemAssigned, UserAssigned`"
+  type        = list(string)
+  default     = null
 }
 
 variable "tags" {
-  description   = "A map of tags to add to all resources"
-  type          = map(string)
-  default       = {}
+  description = "A map of tags to add to all resources"
+  type        = map(string)
+  default     = {}
+}
+
+variable "allow_blob_public_access" {
+  description = "Whether to allow public access to blobs"
+  type        = bool
+  default     = false
 }

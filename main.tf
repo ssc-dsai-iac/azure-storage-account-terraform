@@ -30,11 +30,11 @@ resource "azurerm_storage_account" "this" {
   account_kind              = var.account_kind
   account_tier              = local.account_tier
   account_replication_type  = local.account_replication_type
-  enable_https_traffic_only = true # Always enable https traffic only
+  enable_https_traffic_only = true     # Always enable https traffic only
   min_tls_version           = "TLS1_2" # Always use latest tls version
-  allow_blob_public_access  = false # Always block public access
+  allow_blob_public_access  = var.allow_blob_public_access
 
-  tags                      = var.tags
+  tags = var.tags
 
   identity {
     type         = var.identity_ids != null ? "SystemAssigned, UserAssigned" : "SystemAssigned"
